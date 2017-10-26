@@ -1,0 +1,83 @@
+.header-container {
+  
+  display: flex;
+  background-color: #007A6C;
+  color: white;
+  font-weight: bold;
+
+  .header-icn {
+
+    flex: 1;
+    padding: 15px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .header-links {
+
+    flex: 9;
+    display: flex;
+    
+    div {
+      
+      padding: 15px;
+
+      &:hover {
+        background-color: #04A390;
+        cursor: pointer;
+      }
+
+      a {
+        padding: 17px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .header-btns {
+
+    flex: 2;
+    padding: 9px;
+    display: flex;
+
+    button {
+      flex: 1;
+      background-color: #04A390;
+      color: #fff;
+      font-weight: bold;
+
+      &:hover {
+        background-color: #fff;
+        color: #007A6C;
+      }
+
+      a {
+        color: #fff;
+
+        &:hover {
+          color: #007A6C;
+        }
+      }
+    }
+
+    .login-btn {
+      margin-left: 10px;
+    }
+  }
+}
+
+.login-form-button {
+  display: block;
+  width: 100%;
+  border-color: #04A390;
+  background-color: #04A390;
+}
+
+.ant-modal-header, .ant-modal-footer {
+  display: none !important;
+}
+

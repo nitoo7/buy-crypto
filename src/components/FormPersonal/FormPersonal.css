@@ -1,0 +1,10 @@
+.form-personal {
+  text-align: center;
+  padding: 70px; }
+  .form-personal input {
+    width: 80%;
+    margin-bottom: 15px; }
+    .form-personal input:hover {
+      border-color: #04A390; }
+    .form-personal input:focus {
+      border-color: #04A390; }

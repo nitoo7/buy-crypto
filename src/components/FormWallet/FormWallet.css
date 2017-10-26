@@ -1,0 +1,10 @@
+.form-wallet {
+  text-align: center;
+  padding: 70px; }
+  .form-wallet input {
+    width: 80%;
+    margin-bottom: 15px; }
+    .form-wallet input:hover {
+      border-color: #04A390; }
+    .form-wallet input:focus {
+      border-color: #04A390; }

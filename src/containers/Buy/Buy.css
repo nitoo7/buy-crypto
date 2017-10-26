@@ -1,0 +1,7 @@
+.buy-card {
+  width: 80%;
+  margin: 40px auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2); }
+  .buy-card input {
+    width: 40%; }
